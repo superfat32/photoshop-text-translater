@@ -60,4 +60,20 @@ Open the PSD in Photoshop and run:
 
 ---
 
-## 📂 文件结构 File Structure
+## ⚠️ 注意事项 Notes
+
+- 请使用 **UTF-8 无 BOM** 编码保存 CSV（推荐 LibreOffice / Excel）
+- 请保持 CSV 中英文逗号和引号完整，避免 WPS 等工具错误保存
+- 推荐在回填前使用 VS Code / Sublime 检查 CSV 编码
+
+- Please save CSV with **UTF-8 without BOM** encoding (LibreOffice / Excel recommended)
+- Keep commas and quotes intact in CSV to avoid incorrect saving by tools like WPS
+- It is recommended to check CSV encoding with VS Code / Sublime before filling back
+
+---
+
+## 📧 联系 Contact
+
+如有问题，可通过 Issues 提出或联系开发者。
+
+If you have any questions, please raise an issue or contact the developer.
