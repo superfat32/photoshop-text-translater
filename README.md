@@ -25,14 +25,14 @@ This project contains **ExtendScript scripts for quickly and efficiently complet
 ### 1️⃣ 导出文本以便翻译 Export text for translation
 
 在 Photoshop 中打开 PSD，执行：
-**`Export_PSD_Text_Full_Check.jsx`**
+**`output text in photoshop.jsx`**
 
 - 将完整导出所有文本图层（含路径、图层名、文本内容）
 - 自动去除空白、合并换行，便于翻译
 - 生成的 CSV 可直接用于翻译填写
 
 Open the PSD in Photoshop and run:
-**`Export_PSD_Text_Full_Check.jsx`**
+**`output text in photoshop.jsx`**
 
 - Fully export all text layers (including path, layer name, text content)
 - Automatically remove blanks and merge line breaks for easy translation
@@ -47,13 +47,13 @@ Open the PSD in Photoshop and run:
 After translation, fill in the translation column in the CSV (keep the original "text content" unchanged).
 
 在 Photoshop 中打开 PSD，执行：
-**`Import_PSD_Text_ByContent_CSVSafe.jsx`**
+**`input translated text.jsx`**
 
 - 自动匹配“文本内容”并用“翻译文本”进行回填
 - 支持含英文逗号、长句及换行文本稳定匹配
 
 Open the PSD in Photoshop and run:
-**`Import_PSD_Text_ByContent_CSVSafe.jsx`**
+**`input translated text.jsx`**
 
 - Automatically match "text content" and fill with "translated text"
 - Supports stable matching of text with commas, long sentences, and line breaks
@@ -63,11 +63,11 @@ Open the PSD in Photoshop and run:
 ## ⚠️ 注意事项 Notes
 
 - 请使用 **UTF-8 无 BOM** 编码保存 CSV（推荐 LibreOffice / Excel）
-- 请保持 CSV 中英文逗号和引号完整，避免 WPS 等工具错误保存
+- 请保持 CSV 中英文逗号和引号完整，避免 WPS 等工具错误保存（wps把我坑麻了），csv表格功能推荐使用LibreOffice代替
 - 推荐在回填前使用 VS Code / Sublime 检查 CSV 编码
 
 - Please save CSV with **UTF-8 without BOM** encoding (LibreOffice / Excel recommended)
-- Keep commas and quotes intact in CSV to avoid incorrect saving by tools like WPS
+- Keep commas and quotes intact in CSV to avoid incorrect saving by tools like WPS，recommend using LibreOffice instead for CSV table operations.
 - It is recommended to check CSV encoding with VS Code / Sublime before filling back
 
 ---
